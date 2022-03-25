@@ -1,0 +1,68 @@
+.Calculadora{
+    margin-top: 200px;
+}
+
+.telacalculadora{
+    text-align: right;
+}
+
+.botaonumero{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.botaomais{
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botaolimpar{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botaomenos{
+    padding-left: 16px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botaoalternarsinal{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botaodividir{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botaoigual{
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.storevalue{
+    visibility: hidden;
+}
+
+.botaomultiplicar{
+    padding-left: 15px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

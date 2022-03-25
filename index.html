@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Avançada</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table align="center" class="Calculadora">
+        <tr>
+            <td>
+                <input type="text" disabled id="tela" size="19%" class="telacalculadora">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="1" id="numero1" class="botaonumero" onclick="botar1()">
+                <input type="button" value="2" id="numero2" class="botaonumero" onclick="botar2()">
+                <input type="button" value="3" id="numero3" class="botaonumero" onclick="botar3()">
+                <input type="button" value="C" id="limpar" class="botaolimpar"  onclick="limpar()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="4" id="numero4" class="botaonumero" onclick="botar4()">
+                <input type="button" value="5" id="numero5" class="botaonumero" onclick="botar5()">
+                <input type="button" value="6" id="numero6" class="botaonumero" onclick="botar6()">
+                <input type="button" value="+" id="mais" class="botaomais" onclick="adicionar()">
+            </td>
+        </tr>
+        <tr>
+            <td>   
+                <input type="button" value="7" id="numero7" class="botaonumero" onclick="botar7()">
+                <input type="button" value="8" id="numero8" class="botaonumero" onclick="botar8()">
+                <input type="button" value="9" id="numero9" class="botaonumero" onclick="botar9()">
+                <input type="button" value="-" id="menos" class="botaomenos" onclick="subtrair()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="x" id="multiplicar" class="botaomultiplicar" onclick="multiply()">
+                <input type="button" value="÷" id="dividir" class="botaodividir" onclick="divide()">
+                <input type="button" value="0" id="numero0" class="botaonumero" onclick="botar0()">
+                <input type="button" value="=" id="igual" class="botaoigual" onclick="fazer()">
+            </td>
+        </tr>
+    </table>
+    <input type="text" class="storevalue" id="guardarvalor" value="">
+    <input type="text" class="storevalue" id="guardarsinal" value="">
+</body>
+</html>
